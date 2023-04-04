@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Special+Elite&display=swap');
+
+@media only screen and (max-width: 470px) {
+	.background {
+		z-index: 1;
+		width: 100vw;
+		height: 100vh;
+		background-image: url(mobileBackground.jpg);
+	}
+	.headerBox { /*paper for title*/
+		background: white;
+		width: fit-content;
+		height: fit-content;
+		z-index: 2;
+		font-family: Special Elite;
+		font-weight: bold;
+	}
+	#title {
+		transform: rotate(-10deg);
+		position: fixed;
+		top: 10%;
+		left:10%;
+		font-size: 7vw;
+	}
+	.navBar {
+		display: flex;
+		width: 100vw;
+		flex-direction: row;
+		background: black;
+		align-content: space-between;
+		color: white;
+		font-family: Oswald;
+		font-size: 2vw;
+		padding-top: .5vh;
+	}
+	.navButton {
+		display: flex;
+		flex-direction: row;
+		color: black;
+		font-family: Special Elite;
+		background-color: white;
+		align-items: center;
+		align-content: center;
+		font-size: 2vw;
+		width:15vw;
+		height: fit-content;
+		margin-left: 2.5vw;
+		margin-right: 2.5vw;
+		border-style: solid;
+		border-width: 1px;
+		border-color: white;
+		padding-left: 2.5vw;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
+	.email {
+		align-content: center;
+		background-color: white;
+		color: black;
+		align-items: center;
+		width: 80vw;
+		margin-left: 10vw;
+		margin-left: 10vw;
+		font-size: 2vw;
+		position: relative;
+		padding-left: 3vw;
+		padding-right: 3vw;
+		/*left: 33%;
+		right: 33%;*/
+	}
+	#oops {
+		font-size: 3vmax;
+	}
+
+	#pageTitle { */webzine*/
+		/*top: 7%;
+		left: 7%;*/
+		font-size: 2vw;
+		transform: rotate(-6deg);
+		margin-top: 4vw;
+		margin-left: 5vw;
+	}
+	.titleText{
+		vertical-align: center;
+		margin-bottom: .35vh;
+		margin-top: .35vh;
+		position: relative;
+	}
+	.headerText{
+		vertical-align: center;
+		margin-bottom: .35vh;
+		margin-top: .35vh;
+		position: relative;
+	}
+	.img {
+		height: 60vh;
+		width: auto;
+		margin-top: .4vh;
+		border-style: solid;
+		border-color: white;
+		border-width: .5vh;
+	}
+	.img {
+		height: 60vh;
+		width: auto;
+		margin-top: .35vh;
+		border-style: solid;
+		border-color: white;
+		border-width: .5vh;
+	}
+	.section {
+		align-self: center;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+	}
+	.sectionHeader {
+		align-self: center;
+		align-content: center;
+		font-size: 5vh;
+		margin-top: .5vh;
+		font-weight: bold;
+		font-family: Special Elite;;
+	}
+	.headerText {
+		font-size: 3vh;
+		display: flex;
+		flex-direction: row;
+	}
+	.page {
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		align-content: center;
+		align-items: center;
+		margin-top: .5vh;
+		width: 100vh;
+		z-index: 1;
+	}	
+	#bottomHome{
+		margin-top: 1vh;
+		padding-top: .5vh;
+		padding-bottom: .5vh;
+	}
+	#adelinePage {
+		background-image: linear-gradient(black, red);
+		z-index: 1;
+	}
+	#noa {
+		background-image: linear-gradient(black, mediumpurple);
+		z-index: 1;
+	}
+	.nameText {
+		font-size: 2vmax;
+		z-index: 2;
+		font-family: Special Elite;
+	}
+	#melinaPage {
+		background-image: linear-gradient(black, green);
+	}
+	#lilyPage {
+		background-image: linear-gradient(black, aliceblue);
+	}
+	#lili {
+		background-image: linear-gradient(black, hotpink);
+	}
+	.textPaper {
+		background-color: white;
+		padding-left: .5vw;
+		padding-right: .5vw;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		z-index: 2;
+	}
+}
+
+@media only screen and (min-width: 471px) {
+	.background {
+		z-index:1;
+		width: 100vw;
+		height: 100vh;
+		background-image: url(Artboard_1.jpg);
+	}
+	.container {
+		width: 100vw;
+		height: fit-content;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-self: center;
+		align-items: center;
+	}
+	.headerBox { /*paper for title*/
+		background: white;
+		width: fit-content;
+		height: fit-content;
+		z-index: 2;
+		font-family: Special Elite;
+		font-weight: bold;
+	}
+	#title { /* index title*/
+		transform: rotate(-10deg);
+		position: fixed;
+		top: 10%;
+		left:10%;
+		font-size: 70px;
+	}
+	.navBar {
+		display: flex;
+		width: 100vw;
+		flex-direction: row;
+		background: black;
+		align-content: space-between;
+		color: white;
+		font-family: Oswald;
+		font-size: 2vw;
+		padding-top: 10px;
+	}
+	.navButton {
+		display: flex;
+		flex-direction: row;
+		color: black;
+		font-family: Special Elite;
+		background-color: white;
+		align-items: center;
+		align-content: center;
+		font-size: 2vw;
+		width:20vw;
+		height: fit-content;
+		margin-left: 2.5vw;
+		margin-right: 2.5vw;
+		border-style: solid;
+		border-width: 1px;
+		border-color: white;
+		padding-left: 2.5vw;
+
+	}
+	.email {
+		align-content: center;
+		background-color: white;
+		color: black;
+		align-items: center;
+		margin-left: 20vw;
+		margin-left: 20vw;
+		font-size: 2vw;
+		position: relative;
+		/*left: 33%;
+		right: 33%;*/
+	}
+	#bottomHome{
+		margin-top: 1vh;
+		padding-top: .5vh;
+		padding-bottom: .5vh;
+	}
+	#oops {
+		font-size: 4vmax;
+	}
+	/*content pages*/
+	#pageTitle { */webzine*/
+		/*top: 7%;
+		left: 7%;*/
+		font-size: 2vw;
+		transform: rotate(-6deg);
+		margin-top: 4vw;
+		margin-left: 5vw;
+	}
+	.titleText{
+		vertical-align: center;
+		margin-bottom: 6px;
+		margin-top: 6px;
+		position: relative;
+	}
+	.headerText{
+		vertical-align: center;
+		margin-bottom: 6px;
+		margin-top: 6px;
+		position: relative;
+	}
+	.img {
+		height: 60vh;
+		width: auto;
+		margin-top: 6px;
+		border-style: solid;
+		border-color: white;
+		border-width: 10px;
+	}
+	.section {
+		align-self: center;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+	}
+	.sectionHeader {
+		align-self: center;
+		align-content: center;
+		font-size: 5vmax;
+		margin-top: 10px;
+		font-weight: bold;
+		font-family: Special Elite;;
+	}
+	.headerText {
+		font-size: 3vmax;
+		display: flex;
+		flex-direction: row;
+	}
+	.page {
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		align-content: center;
+		align-items: center;
+		margin-top: 10px;
+		width: 100vh;
+		z-index: 1;
+	}	
+	#adelinePage {
+		background-image: linear-gradient(black, red);
+		z-index: 1;
+	}
+	#noa {
+		background-image: linear-gradient(black, mediumpurple);
+		z-index: 1;
+	}
+	.nameText {
+		font-size: 2vmax;
+		z-index: 2;
+		font-family: Special Elite;
+	}
+	#melinaPage {
+		background-image: linear-gradient(black, green);
+	}
+	#lilyPage {
+		background-image: linear-gradient(black, aliceblue);
+	}
+	#lili {
+		background-image: linear-gradient(black, hotpink);
+	}
+	.textPaper {
+		background-color: white;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		z-index: 2;
+	}	
+
+}
